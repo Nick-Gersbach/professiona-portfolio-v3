@@ -515,6 +515,15 @@ header.sticky {
     padding: 20px 20px;
     background: #000;
 }
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+      background: linear-gradient(rgba(20,20,20, .7), rgba(20,20,20,.7)),
+   url(./img/portfolio-bg-compressed.jpg) no-repeat center center/cover;
+   background-attachment: none;
+}
     
  .menu-btn {
     z-index: 1001;
